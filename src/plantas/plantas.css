@@ -1,6 +1,8 @@
 body {
   font-family: Arial, Arial, Helvetica, sans-serif;
   background-image: url("../../imagens/fundo.png");
+  text-align: justify;
+  padding: 2rem;
 }
 
 h1 {
@@ -9,10 +11,16 @@ h1 {
   color: limegreen;
 }
 
-p {
-  text-align: justify;
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: limegreen;
 }
 
-blockquote {
-  font-display: ;
+blockquote, q {
+  font-style: italic;
+}
+
+.conteudo {
+  margin-left: 2rem;
 }
