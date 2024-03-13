@@ -22,6 +22,24 @@ blockquote, q {
   font-style: italic;
 }
 
+table, th, td {
+  border: 2px solid;
+  border-color: silver;
+  border-collapse: collapse;
+  text-align: center;
+  width: 600px;
+}
+
+th, td {
+  padding: 4px;
+  width: 25%;
+}
+
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+
 .conteudo {
   margin-left: 2rem;
 }
